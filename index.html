@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="Styles/fitness.css">
+    <script src="https://kit.fontawesome.com/58938f6c76.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="flex">
             <h3><a href="">Fitness</a></h3>
-            <ul class="flex">
-                <li class="red-btn home"><a href="">Home</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">About</a></li>
-            </ul>
+            <div>
+                <i class="fa-sharp fa-solid fa-bars hamburger"></i>
+                <div class="menu">
+                    <ul class="flex">
+                        <li class="red-btn home"><a href="">Home</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <div class="banner flex">
             <div class="banner-text">
@@ -33,7 +39,7 @@
                     <p class="common-p">Free Workout Videos</p>
                 </div>
                 <div class="card-350 flex">
-                    <div class="red-350"></div>
+                    <div class="red-350"><i class="fa-solid fa-play"></i></div> 
                     <div>
                         <h3 class="card-350-title">350+</h3>
                     <p class="common-p">Video tutorial</p>
@@ -42,11 +48,33 @@
             </div>
         </div>
     </header>
-    <section>
-        <div class="habit">
+    <section class="habit">
+        <div class="habit-container">
             <div class="habit-text">
                 <h3 class="habit-title">Change Your Habits</h3>
-                <p class="common-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <p class="common-p habit-p">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+            <div class="habit-images flex">
+                <div>
+                    <img src="./images/image 3.png" alt="">
+                    <h4 class="h-i-t">Movement</h4>
+                    <p class="common-p h-i-p">We believe fitness should be accessible to everyone</p>
+                </div>
+                <div>
+                    <img src="./images/image 2.png" alt="">
+                    <h4 class="h-i-t">Time</h4>
+                    <p class="common-p h-i-p">We believe fitness should be accessible to everyone</p>
+                </div>
+                <div>
+                    <img src="./images/image 4.png" alt="">
+                    <h4 class="h-i-t">Practice</h4>
+                    <p class="common-p h-i-p">We believe fitness should be accessible to everyone</p>
+                </div>
+                <div>
+                    <img src="./images/image 5.png" alt="">
+                    <h4 class="h-i-t">Weight Loss</h4>
+                    <p class="common-p h-i-p">We believe fitness should be accessible to everyone</p>
+                </div>
             </div>
         </div>
     </section>
